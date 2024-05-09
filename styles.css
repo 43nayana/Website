@@ -31,3 +31,30 @@ nav.logo a{
 nav .logo a:hover{
   color: var(--primary-color-dark);
 }
+nav .checkbox{
+  display: none;
+}
+nav input{
+  display: none;
+}
+nav .checkbox{
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor:pointer;
+}
+ul{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+ul li a{
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  test-description: none;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
